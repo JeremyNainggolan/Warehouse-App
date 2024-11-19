@@ -133,12 +133,20 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="480dp"
+                        android:layout_height="540dp"
                         android:orientation="vertical"
                         android:padding="14dp">
 
                         <ListView
+                            android:visibility="visible"
                             android:id="@+id/list_area"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginVertical="4dp"/>
+
+                        <ListView
+                            android:visibility="gone"
+                            android:id="@+id/list_batch"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginVertical="4dp"/>
